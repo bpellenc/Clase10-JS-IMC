@@ -1,0 +1,117 @@
+.imcContainer {
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    height: 345px;
+}
+.imcContainer input {
+    width: 100px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 12px;
+    height: 16px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+}
+.imcContainer h3 {
+    text-align: center;
+}
+.imcContainer a {
+    cursor: pointer;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+.imcContainer #imcResultado{
+    height: 50px;
+}
+
+.imcTable{
+    float: right;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+     background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    height: 365px;
+}
+.imcTable td{
+    font-size: 12px;
+}
+.imcTable td{
+    border-top: 1px solid #dddddd;
+}
+.imcTable th, .imcTable td {
+    line-height: 20px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    min-width: 80px;
+}
+
+.imcTable tbody tr.success > td {
+    background-color: #dff0d8;
+}
+
+.imcTable tbody tr.warning > td {
+    background-color: #fcf8e3;
+}
+
+.imcTable tbody tr.error > td {
+    background-color: #f2dede;
+}
+
+.alert {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.alert-warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IMC - Brian Pellenc</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
+    <script src="./functions.js"></script>
+  </head>
+
+<div class="imcContainer col4">
+    <form role="form">
+        <div class="form-group">
+            <br/>
+            <label>Peso KG</label>
+            <input id="imcPeso" placeholder="Peso en Kg" class="form-control">
+            <br/>
+            <label>Estatura cm</label>
+            <input id="imcEstatura" placeholder="Estatura en cm" class="form-control">
+            <br/>
+
+        </div>
+        <div>
+            <a class="btn btn-default" onclick="IMC.limpiar()" >Limpiar</a>
+            <a class="btn btn-default" onclick="IMC.calcular()" >Calcular</a>
+        </div>
+        <div id="imcResultado" >
+
+        </div>
+    </form>
+</div>
+<div class="imcTable col7">
+    <table class="table">
+      <thead>
+        <tr>
+          <th> <h3>Composicion Corporal</h3> </th>
+          <th> <h3>Indice de Masa Corporal (IMC)</h3> </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="warning">
+          <td> <strong>Peso Inferior al Normal </strong> </td>
+          <td> <strong>Menos de 18.5</strong> </td>
+        </tr>
+        <tr class="success">
+          <td> <strong>Normal</strong> </td>
+          <td> <strong>18.5 - 24.9</strong> </td>
+        </tr>
+        <tr class="warning">
+          <td> <strong>Peso Superior al Normal</strong> </td>
+          <td> <strong>25.0 - 29.9</strong> </td>
+        </tr>
+        <tr class="warning">
+          <td> <strong>Obesidad</strong> </td>
+          <td> <strong>Mas de 30</strong> </td>
+        </tr>
+      </tbody>
+    </table>
+</div>  
